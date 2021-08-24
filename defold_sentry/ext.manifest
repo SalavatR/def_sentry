@@ -1,0 +1,10 @@
+name: "IronsourceAdmobAdapter"
+
+platforms:
+    ios:
+        context:
+            frameworks: ["UIKit", "AdSupport", "StoreKit"]
+            linkFlags:  ["-ObjC"]
+    android:
+      context:
+        aaptExtraPackages: ['androidx.core', 'androidx.work', com.google.ads, 'com.google.android.gms', 'com.google.android.gms.ads', 'com.google.android.gms.common']

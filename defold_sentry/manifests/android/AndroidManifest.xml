@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="{{android.package}}">
+    <uses-sdk android:minSdkVersion="{{android.minimum_sdk_version}}" android:targetSdkVersion="{{android.target_sdk_version}}" />
+    <application>
+        <application>
+              <meta-data android:name="io.sentry.dsn" android:value="{{sentry.dsn}}" />
+              <meta-data android:name="io.sentry.anr.enable" android:value="{{sentry.anr}}" />
+        </application>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

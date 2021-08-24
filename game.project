@@ -1,0 +1,10 @@
+[project]
+title = defold_sentry
+
+[library]
+include_dirs = defold_sentry
+
+[sentry]
+dsn = https://examplePublicKey@o0.ingest.sentry.io/0
+anr = true
+anr_timeout = 2000
