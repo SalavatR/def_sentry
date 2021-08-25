@@ -5,5 +5,6 @@
         <meta-data android:name="io.sentry.dsn" android:value="{{sentry.dsn}}" />
         <meta-data android:name="io.sentry.anr.enable" android:value="{{sentry.anr}}"/>
         <meta-data android:name="io.sentry.anr.timeout-interval-mills" android:value="{{sentry.anr_timeout}}" />
+        <meta-data android:name="io.sentry.traces.sample-rate" android:value="{{sentry.sample_rate}}" />
     </application>
 </manifest>
